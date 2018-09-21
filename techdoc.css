@@ -1,0 +1,62 @@
+main{
+  display:block;
+  background: blueviolet;
+  color:black;
+  font:normal normal normal 14px/22px arial ;
+  margin:4% 4% 0 0;
+  padding: 5%;
+  max-width:100%;
+  border:5px;
+  border-radius: 5px;
+  text-align: left;
+}
+header{
+  display: block;
+  font:normal bold 16px/24px arial;
+  margin:1%;
+  padding:1%;
+  text-align: left;
+}
+footer{
+  background:rgb(84, 28, 139);
+  color:rgb(14, 150, 132);
+  display:block;
+  margin-right:4%;
+  padding:2%;
+  border-radius:10px;
+  text-align: center;
+}
+section{
+  padding:2px;
+}
+code{
+  font-style: italic;
+}
+nav{
+  margin:0 4% 0 0;
+  padding-bottom: 10px;
+  background: black;
+  color:blue;
+  text-align: left;
+  border:1px;
+  border-radius: 5px;
+}
+#navbar{
+  display:grid;
+  align-items: baseline;
+}
+img{
+  float: right;
+  display: block;
+  position: absolute;
+  right: 0;
+}
+
+
+.img-caption{
+  text-align:end;
+  
+}
+  @media(max-height:1000px){
+    img{width:100px;}
+}
